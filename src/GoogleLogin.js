@@ -7,7 +7,7 @@ const responseGoogle = async (response) => {
   //     "http://localhost:3001/api/v1/users/google-authenticate",
   //     { id_token: response.tokenObj.id_token }
   //   );
-  console.log(response.tokenObj.id_token);
+  console.log(response);
   //console.log(res.data);
 };
 
