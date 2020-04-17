@@ -14,7 +14,7 @@ const responseGoogle = async (response) => {
 export default function GoogleSign() {
   return (
     <GoogleLogin
-      clientId="1060877864557-8o3qph7b2ngjqkbee4prhpnidus0blhe.apps.googleusercontent.com"
+      clientId="1060877864557-qqlu057h0mba9tns4k1c6iop4bq7au1r.apps.googleusercontent.com"
       buttonText="Login"
       onSuccess={responseGoogle}
       onFailure={responseGoogle}
