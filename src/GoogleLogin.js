@@ -3,12 +3,12 @@ import GoogleLogin from "react-google-login";
 import axios from "axios";
 
 const responseGoogle = async (response) => {
-  //   let res = await axios.post(
-  //     "http://localhost:3001/api/v1/users/google-authenticate",
-  //     { id_token: response.tokenObj.id_token }
-  //   );
-  console.log(response);
-  //console.log(res.data);
+    let res = await axios.post(
+      "http://localhost:3000/api/v1/users/google-login",
+      { id_token: response.tokenObj.id_token }
+    );
+ 
+  console.log(res.data);
 };
 
 export default function GoogleSign() {
