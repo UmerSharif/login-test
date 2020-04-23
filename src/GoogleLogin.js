@@ -4,7 +4,7 @@ import axios from "axios";
 
 const responseGoogle = async (response) => {
     let res = await axios.post(
-      "http://localhost:3000/api/v1/users/google-login",
+      "http://localhost:3000/api/v1/students/google-login",
       { id_token: response.tokenObj.id_token }
     );
  
